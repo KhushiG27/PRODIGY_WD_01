@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive landing page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <div class="logo">Pizzanio</div>
+      <nav id="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <div class="buttons">
+        <button class="btn">Sign In</button>
+        <button class="btn btn-primary">Sign Up</button>
+      </div>
+
+      <div class="cart-icon">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <span class="cart-count">0</span>
+      </div>
+
+      <div class="hamburger" id="hamburger">
+      <i class="fa-solid fa-bars"></i>
+      </div>
+
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+ 
+        <div class="hero-text">
+          <h1>The Best Pizzas Are Served Here</h1>
+          <p> Whether you're a fan of classic Margherita or loaded with toppings, we are here to present you some undenying favorites</p>
+
+          <button class="btn btn-primary">Learn More</button>
+        </div>
+        <div class="hero-image">
+          <img src="4.png" alt="Top Selling Pizzas" id="heroImage">
+        </div>
+      </section>
+
+      <section class="Top Selling Pizzas">
+        <h2>Top Selling Pizzas</h2>
+        <div class="dishes">
+
+          <div class="dish" data-img="1.png">
+            <img src="1.png" alt="Margherita">
+            <h3>Margherita</h3>
+            <p>Classic delight with 100% real mozzarella cheese</p>
+            <span class="price">₹199</span>
+            <button class="Add-to-cart" data-name="Margherita" data-price="₹199">
+            <i class="fa-solid fa-square-plus"></i>
+            </button>
+          </div>
+
+          <div class="dish" data-img="2.png">
+            <img src="2.png" alt="veggie loaded">
+            <h3>veggie loaded</h3>
+            <p>Delightful combination of onion, zucchini, tomato & paneer</p>
+            <span class="price">₹299</span>
+            <button class="Add-to-cart" data-name="veggie loaded" data-price="₹299">
+            <i class="fa-solid fa-square-plus"></i>
+            </button>
+          </div>
+
+          <div class="dish" data-img="3.png">
+            <img src="3.png" alt="pepperoni">
+            <h3>pepperoni</h3>
+            <p>The classic Italian pizza with bocconcini cheese and chicken pepperoni.</p>
+            <span class="price">₹399</span>
+            <button class="Add-to-cart" data-name="pepperoni" data-price="₹399">
+            <i class="fa-solid fa-square-plus"></i>
+            </button>
+          </div>
+
+          <div class="dish" data-img="5.png">
+            <img src="5.png" alt="BBQ chicken">
+            <h3>BBQ chicken</h3>
+            <p>Pepper barbecue chicken for that extra zing</p>
+            <span class="price">₹429</span>
+            <button class="Add-to-cart" data-name="BBQ chicken" data-price="₹429">
+            <i class="fa-solid fa-square-plus"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+    
+
+    </main>  
+<script src="script.js"></script>
+</body>
+
+</html>
